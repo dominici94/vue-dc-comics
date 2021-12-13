@@ -98,7 +98,21 @@
               </div>
           </div>
       </div>
-      <div class="bottom-footer"></div>
+      <div class="bottom-footer">
+          <div class="container">
+              <div class="left-btm-container">
+                  <button>sign-up now!</button>
+              </div>
+              <div class="right-btm-container">
+                  <a href="#">Follow us</a>
+                  <img src="../assets/img/footer-facebook.png" alt="">
+                  <img src="../assets/img/footer-twitter.png" alt="">
+                  <img src="../assets/img/footer-youtube.png" alt="">
+                  <img src="../assets/img/footer-pinterest.png" alt="">
+                  <img src="../assets/img/footer-periscope.png" alt="">
+              </div>
+          </div>
+      </div>
   </footer>
 </template>
 
@@ -187,13 +201,38 @@ export default {
                 background-position: center;
                 background-repeat: no-repeat;
             }
-
-            
-
-            
         }
+    }
 
-        
+    .bottom-footer{
+        background-color: $secondaryColor;
 
+        .container{
+            padding: 30px 0;
+            display: flex;
+            justify-content: space-between;
+
+            button{
+                text-transform: uppercase;
+                padding: 10px;
+                background-color: $secondaryColor;
+                color: white;
+                border-color: $mainColor;
+                cursor: pointer;
+            }
+
+            .right-btm-container{
+                width: 35%;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+
+                a{
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    font-weight: bold;
+                }
+            }
+        }
     }
 </style>
