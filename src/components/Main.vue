@@ -1,6 +1,6 @@
 <template>
   <main>
-      <h1>testo main</h1>
+      <div> -->content goes here </div>
   </main>
 </template>
 
