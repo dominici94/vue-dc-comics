@@ -60,7 +60,12 @@ export default {
                         .active{
                         color: $mainColor;
                         border-bottom: 2px solid $mainColor;
-                    }
+                        }
+
+                        &:hover{
+                            color: $mainColor;
+                            border-bottom: 2px solid $mainColor;
+                        }
                     }
                     
                 

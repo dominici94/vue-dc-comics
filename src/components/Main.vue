@@ -1,6 +1,6 @@
 <template>
   <main>
-      <div> -->content goes here </div>
+      <div class="container"> -->      Content goes here </div>
   </main>
 </template>
 
@@ -10,6 +10,11 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+    @import '../assets/style/partials/variables.scss';
 
+    main{
+        background-color: $secondaryColor;
+        color: white;
+    }
 </style>
