@@ -47,7 +47,57 @@
           </div>
           
       </div>
-      <div class="mid-footer"></div>
+      <div class="mid-footer">
+          <div class="container">
+              <div class="mid-container left">
+                    <div class="column">
+                        <h2>dc comics</h2>
+                        <ul>
+                            <li><a href="#">Characters</a></li>
+                            <li><a href="#">Comics</a></li>
+                            <li><a href="#">Movies</a></li>
+                            <li><a href="#">TV</a></li>
+                            <li><a href="#">Games</a></li>
+                            <li><a href="#">Videos</a></li>
+                            <li><a href="#">News</a></li>
+                        </ul>
+                        <h2>shop</h2>
+                        <ul>
+                            <li><a href="#">Shop dc</a></li>
+                            <li><a href="#">Shop dc collectibles</a></li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h2>dc</h2>
+                        <ul>
+                            <li><a href="#">Terms of use</a></li>
+                            <li><a href="#">Privacy policy (New)</a></li>
+                            <li><a href="#">Ad Choices</a></li>
+                            <li><a href="#">Advertising</a></li>
+                            <li><a href="#">jobs</a></li>
+                            <li><a href="#">subscriptions</a></li>
+                            <li><a href="#">Talent Workshops</a></li>
+                            <li><a href="#">CSPC Certificates</a></li>
+                            <li><a href="#">Ratings</a></li>
+                            <li><a href="#">Shop Help</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h2>sites</h2>
+                        <ul>
+                            <li><a href="#">DC</a></li>
+                            <li><a href="#">MAD Magazine</a></li>
+                            <li><a href="#">DC kids</a></li>
+                            <li><a href="#">DC Universe</a></li>
+                            <li><a href="#">DC Power Visa</a></li>
+                        </ul>
+                    </div>
+              </div>
+              <div class="mid-container right">
+              </div>
+          </div>
+      </div>
       <div class="bottom-footer"></div>
   </footer>
 </template>
@@ -94,5 +144,56 @@ export default {
             
         }
         
+    }
+
+    .mid-footer{
+        background-image: url('../assets/img/footer-bg.jpg');
+
+        .container{
+            display: flex;
+            color: white;
+            
+
+            .mid-container{
+                width: 50%;
+                display: flex;
+
+                .column{
+                    margin-right: 25px;
+
+                    h2{
+                        text-transform: uppercase;
+                        padding: 10px 0;
+                    }
+
+                    ul{
+                        list-style: none;
+
+                        li a{
+                            text-decoration: none;
+                            color: gray;
+                        }
+                    
+                    }
+                }
+            }
+
+            .left{
+                padding: 50px 0;
+            }
+
+            .right{
+                background-image: url('../assets/img/dc-logo-bg.png');
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            
+
+            
+        }
+
+        
+
     }
 </style>
