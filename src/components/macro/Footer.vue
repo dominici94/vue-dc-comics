@@ -6,7 +6,7 @@
                     <li>
                         <a href="#">
                             <div class="img-container">
-                                <img src="../assets/img/buy-comics-digital-comics.png" alt="esempio">
+                                <img src="../../assets/img/buy-comics-digital-comics.png" alt="esempio">
                             </div>
                             digital comics
                         </a>
@@ -14,7 +14,7 @@
                     <li>
                         <a href="#">
                             <div class="img-container">
-                                <img src="../assets/img/buy-comics-merchandise.png" alt="esempio">
+                                <img src="../../assets/img/buy-comics-merchandise.png" alt="esempio">
                             </div>
                             dc merchandise
                         </a>
@@ -22,7 +22,7 @@
                     <li>
                         <a href="#">
                             <div class="img-container">
-                                <img src="../assets/img/buy-comics-subscriptions.png" alt="esempio">
+                                <img src="../../assets/img/buy-comics-subscriptions.png" alt="esempio">
                             </div>
                             subscription
                         </a>
@@ -30,7 +30,7 @@
                     <li>
                         <a href="#">
                             <div class="img-container">
-                                <img src="../assets/img/buy-comics-shop-locator.png" alt="esempio">
+                                <img src="../../assets/img/buy-comics-shop-locator.png" alt="esempio">
                             </div>
                             comic shop locator
                         </a>
@@ -38,7 +38,7 @@
                     <li>
                         <a href="#">
                             <div class="img-container">
-                                <img src="../assets/img/buy-dc-power-visa.svg" alt="esempio">
+                                <img src="../../assets/img/buy-dc-power-visa.svg" alt="esempio">
                             </div>
                             dc power visa
                         </a>
@@ -105,11 +105,11 @@
               </div>
               <div class="right-btm-container">
                   <a href="#">Follow us</a>
-                  <img src="../assets/img/footer-facebook.png" alt="">
-                  <img src="../assets/img/footer-twitter.png" alt="">
-                  <img src="../assets/img/footer-youtube.png" alt="">
-                  <img src="../assets/img/footer-pinterest.png" alt="">
-                  <img src="../assets/img/footer-periscope.png" alt="">
+                  <img src="../../assets/img/footer-facebook.png" alt="">
+                  <img src="../../assets/img/footer-twitter.png" alt="">
+                  <img src="../../assets/img/footer-youtube.png" alt="">
+                  <img src="../../assets/img/footer-pinterest.png" alt="">
+                  <img src="../../assets/img/footer-periscope.png" alt="">
               </div>
           </div>
       </div>
@@ -123,7 +123,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-   @import '../assets/style/partials/variables.scss';
+   @import '../../assets/style/partials/variables.scss';
 
     .top-footer{
         background-color: $mainColor;
@@ -161,7 +161,7 @@ export default {
     }
 
     .mid-footer{
-        background-image: url('../assets/img/footer-bg.jpg');
+        background-image: url('../../assets/img/footer-bg.jpg');
 
         .container{
             display: flex;
@@ -197,7 +197,7 @@ export default {
             }
 
             .right{
-                background-image: url('../assets/img/dc-logo-bg.png');
+                background-image: url('../../assets/img/dc-logo-bg.png');
                 background-position: center;
                 background-repeat: no-repeat;
             }

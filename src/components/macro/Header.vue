@@ -2,7 +2,7 @@
   <header>
       <div class="container">
             <div class="logo">
-                <img src="../assets/img/dc-logo.png" alt="logo dc">
+                <img src="../../assets/img/dc-logo.png" alt="logo dc">
             </div>
             
             <nav>
@@ -79,7 +79,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../assets/style/partials/variables.scss';
+@import '../../assets/style/partials/variables.scss';
 
     header{
         // height: 100px;
@@ -112,6 +112,10 @@ export default {
                         .active{
                         color: $mainColor;
                         border-bottom: 5px solid $mainColor;
+                        }
+
+                        &:hover{
+                            background-color: #888;
                         }
                     }
                     
