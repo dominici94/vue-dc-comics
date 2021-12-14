@@ -3,10 +3,11 @@
         <div class="container">
             <a href="#" class="top">current series</a>
             <div class="comics-list">
-                <div class="comic-card" v-for="(comic, index) in comics" :key="index">
+                <!-- <div class="comic-card" v-for="(comic, index) in comics" :key="index">
                     <img :src="comic.thumb" :alt="comic.type">
                     <h3>{{comic.series}}</h3>
-                </div>
+                </div> -->
+                <CardComic v-for="(comic, index) in comics" :key="index" :comic="comic"/>
             </div>
             <a href="#" class="down">load more</a>
         </div>
@@ -14,8 +15,13 @@
 </template>
 
 <script>
+import CardComic from '../commons/CardComic.vue';
+
 export default {
     name: 'Comics',
+    components: {
+        CardComic
+    },
     data(){
         return{
             comics : [
@@ -130,14 +136,14 @@ section{
             flex-wrap: wrap;
             padding: 70px 0;
 
-            .comic-card{
-                width: calc((100% / 6) - 30px);
-                margin: 15px;
+            // .comic-card{
+            //     width: calc((100% / 6) - 30px);
+            //     margin: 15px;
 
-                img{
-                    width: 100%;
-                }
-            }
+            //     img{
+            //         width: 100%;
+            //     }
+            // }
         }
     }
     
